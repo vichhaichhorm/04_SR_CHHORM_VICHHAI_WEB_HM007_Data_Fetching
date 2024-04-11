@@ -35,7 +35,7 @@ const CardComponet = async () => {
       {/* card items */}
       <div className='w-[1400px] h-auto m-auto cursor-pointer'>
         <div className='flex flex-nowrap gap-x-10 overflow-x-scroll w-full overflow-hidden no-scrollbar'>
-          { data.payload.map((data) => (
+          {data.payload.map((data) => (
             <div key={data?.id} className='card-item h-[400px] flex flex-none'>
               <div className="bg-white rounded-lg shadow-lg w-[350px] p-[15px]">
                 <img src={data.image} alt="Mountain" class="w-full h-[200px] object-cover" />
@@ -62,6 +62,7 @@ const CardComponet = async () => {
           </div>
         ))}
       </div>
+   
     </div>
   )
 }

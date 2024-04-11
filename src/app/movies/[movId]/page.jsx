@@ -8,6 +8,7 @@ const MovieDetails = async ({ params }) => {
     return (
 
         <div>
+            
             <div className="bg-[orange] w-[100%] h-[100vh]">
                 <div className="bg-gray-100 dark:bg-gray-800 py-8">
                     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -43,12 +44,11 @@ const MovieDetails = async ({ params }) => {
                                 <div className="text-gray-600 dark:text-gray-300 text-sm mt-20">
                                     Date of release movie
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
-
+            
             </div>
         </div>
 
